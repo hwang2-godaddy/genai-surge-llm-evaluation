@@ -2,14 +2,14 @@
 
 ### Input [dataset](val_sentence_pairs.csv)
 1. Reference of the dataset: https://aclanthology.org/P19-1213/
-1. 373 articles with one correct summary and one one correct summary
+2. 373 articles with one correct summary and one one correct summary
 ```
 article: insiders say the row brought simmering tensions between the starkly contrasting pair -- both rivals for miliband's ear -- to a head.
 
 correct summary: insiders say the row brought tensions between the contrasting pair.
 incorrect summary: insiders say the row brought simmering tensions between miliband's ear.
 ```
-1. The correct summary is always the first response in the dataset
+3. The correct summary is always the first response in the dataset
 
 
 ### Protocol
@@ -24,13 +24,13 @@ Summary A: [correct summary]
 Summary B: [incorrect summary]
 Answer (A or B):
 ```
-1. Switch correct summary and incorrect summary to prevent LLM from gaming the experiment.
+2. Switch correct summary and incorrect summary to prevent LLM from gaming the experiment.
 
 
 ### Result
 1. [Graph](accuracy_charts.png):   
 ![accuray_chat](accuracy_charts.png)
-1. [Summary Statistics](summary_statistics.xlsx):   
+2. [Summary Statistics](summary_statistics.xlsx):   
 
 | Model           | Accuracy | AA       | BB       | Order Bias       | Source                                               |
 |-----------------|----------|----------|----------|------------------|------------------------------------------------------|
@@ -45,7 +45,7 @@ Answer (A or B):
 
 ### Observations
 1. From accuray and order bias perspective, Titan is on par with GPT-3.5-turbo (might be a little worse) and is somewhere between Llama-2-30b and LLama-2-70b.
-1. Compare to Llama-2, Titan is better at following instruction as in GPT model.
+2. Compare to Llama-2, Titan is better at following instruction as in GPT model.
 ```
 Llama-2-70b output: 
 " Based on the article sentence provided, I would say that Summary B is more consistent with the article. The article sentence directly states that \"the abc have reported that those who receive centrelink payments made up half of radio rental's income last year,\" which implies that the ABC news organization reported on the income of Radio Rental and found that centrelink payments made up half of it. Therefore, Summary B is more consistent with the article as it directly quotes the ABC news organization."
