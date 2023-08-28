@@ -1,5 +1,0 @@
-Determine if the following text says whether the answer is A, B or other. 
-
-Only output a single word, either: A B or other
-
-Text: {query}
