@@ -57,6 +57,7 @@ Answer (A or B):
 | Llama-2-30b     | 56.30%   | 4.00%      | 4.00%     | 32.40%    | 3.20%    | 29.2% towards A  | [notebook](Llama-2_analysis_only_updated.ipynb)      |
 | Llama-2-70b     | 84.50%   | 4.00%      | 0.00%     | 3.50%     | 8.00%    | 4.6% towards B   | [notebook](Llama-2_analysis_only_updated.ipynb)      |
 | Titan           | 65.40%   | 2.40%      | 1.90%     | 2.10%     | 28.20%   | 26.0% towards B  | [notebook](Titan_analysis_only_updated.ipynb)        |
+| Platypus-70b    | 87.90%   | 2.90%      | 0.00%     | 4.80%     | 4.30%    | 0.5% towards A   | [notebook](Platypus2_70B_instruct.ipynb)             |   
 | GPT-3.5-turbo   | 67.00%   |            |           |           |          |                  | https://arxiv.org/abs/2303.15621                     |
 | GPT-4           | 85.50%   |            |           |           |          |                  | https://arxiv.org/abs/2303.15621                     |
 | Human           | 83.90%   |            |           |           |          |                  | https://aclanthology.org/2020.findings-emnlp.322.pdf |
