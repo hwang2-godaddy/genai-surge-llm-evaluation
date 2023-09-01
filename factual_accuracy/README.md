@@ -54,7 +54,7 @@ Answer (A or B):
 | Model           | Accuracy | Error Rate | No Answer | AA        | BB       | Order Bias       | Source                                               |
 |-----------------|----------| -----------| --------- |---------- |----------|------------------|------------------------------------------------------|
 | Llama-2-7b      | 23.10%   | 4.30%      | 7.00%     | 1.10%     | 64.60%   | 63.5% towards B  | [notebook](Llama-2_analysis_only_updated.ipynb)      |
-| Llama-2-30b     | 56.30%   | 4.00%      | 4.00%     | 32.40%    | 3.20%    | 29.2% towards A  | [notebook](Llama-2_analysis_only_updated.ipynb)      |
+| Llama-2-13b     | 56.30%   | 4.00%      | 4.00%     | 32.40%    | 3.20%    | 29.2% towards A  | [notebook](Llama-2_analysis_only_updated.ipynb)      |
 | Llama-2-70b     | 84.50%   | 4.00%      | 0.00%     | 3.50%     | 8.00%    | 4.6% towards B   | [notebook](Llama-2_analysis_only_updated.ipynb)      |
 | Titan           | 65.40%   | 2.40%      | 1.90%     | 2.10%     | 28.20%   | 26.0% towards B  | [notebook](Titan_analysis_only_updated.ipynb)        |
 | Platypus-70b    | 87.90%   | 2.90%      | 0.00%     | 4.80%     | 4.30%    | 0.5% towards A   | [notebook](Platypus2_70B_instruct.ipynb)             |   
