@@ -69,11 +69,17 @@ Answer (A or B):
 
 ### Observations
 1. From accuray and order bias perspective, Titan is on par with GPT-3.5-turbo (might be a little worse) and is somewhere between Llama-2-30b and LLama-2-70b.
-2. Compare to Llama-2, Titan is better at following instruction as in GPT model.
+2. Compare to Llama-2, Titan is better at following instruction.
 ```
 Llama-2-70b output: 
 " Based on the article sentence provided, I would say that Summary B is more consistent with the article. The article sentence directly states that \"the abc have reported that those who receive centrelink payments made up half of radio rental's income last year,\" which implies that the ABC news organization reported on the income of Radio Rental and found that centrelink payments made up half of it. Therefore, Summary B is more consistent with the article as it directly quotes the ABC news organization."
 
 Titan output:
+"B"
+
+Platypus output:
+"B"
+
+GPT output:
 "B"
 ```
